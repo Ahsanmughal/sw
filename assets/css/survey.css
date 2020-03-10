@@ -1,0 +1,104 @@
+.content-left {
+    background-color: #434bdf;
+    padding: 0;
+}
+.content-left-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    min-height: 100%;
+    padding: 60px 90px 35px 90px;
+    background-color: #434bdf;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background: transparent;
+    background: -webkit-linear-gradient(top, transparent, rgba(0,0,0,0.5));
+    background: linear-gradient(to bottom, transparent,rgba(0,0,0,0.5));
+    height: 100vh;
+}
+
+.content-left-wrapper h2 {
+    color: #fff;
+}
+
+.content-right {
+    padding: 0px 60px 0px 60px;
+    height: 100vh;
+}
+
+.group-options .list-options .item-option {
+    color: #999;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.group-options .list-options .item-option input[type=checkbox], .group-options .list-options .item-option input[type=radio] {
+    display: none;
+}
+
+.group-options .list-options .item-option .icon-checkbox,  .group-options .list-options .item-option .icon-radio{
+    font-size: 16px;
+    line-height: 1.4;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.group-options .list-options .item-option {
+    color: #999;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.group-options .list-options .item-option .icon-checkbox::before {
+    content: '\f372';
+    font-family: Ionicons;
+}
+
+.group-options .list-options .item-option input[type=checkbox]:checked+.icon-checkbox::before {
+    content: '\f374';
+}
+
+.group-options .list-options .item-option .icon-radio::before {
+    content: '\f3a6';
+    font-family: Ionicons;
+}
+
+.group-options .list-options .item-option input[type=radio]:checked+.icon-radio::before {
+    content: '\f3a7';
+}
+
+@media (max-width: 991px) {
+    .content-left-wrapper {
+        height: auto;
+        padding: 10px;
+    }
+    .content-right {
+        height: auto;
+        padding: 60px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-left-wrapper {
+        height: auto;
+        padding: 10px;
+    }
+    .content-right {
+        height: auto;
+        padding: 60px 0px 0px 0px;
+    }
+}

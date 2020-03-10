@@ -1,0 +1,31 @@
+/* Libs css */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import "./fonts/font-awesome-4/css/font-awesome.css";
+@import "./fonts/ionicons/css/ionicons.css";
+@import "./fonts/simple-line-icons/css/simple-line-icons.css";
+@import "./libs/bootstrap/bootstrap.min.css";
+@import "./libs/slick/slick.css";
+@import "./libs/magnific-popup/magnific-popup.css";
+@import "./libs/animate/animate.css";
+@import "./libs/animsition/animsition.min.css";
+@import "./libs/parallax100/parallax100.css";
+@import "./libs/slide-menu/slide-menu.css";
+@import "./libs/typehead/jquery.typeahead.min.css";
+@import "./libs/bootstrap-select/css/bootstrap-select.css";
+@import "./libs/datepicker-master/datepicker.css";
+@import "./libs/switch-master/clean-switch.css";
+@import "./libs/starr/starr.css";
+@import "./libs/izitoast/dist/css/iziToast.css";
+
+/* custom css*/
+@import "./css/product-detail.css";
+@import "./css/about.css";
+@import "./css/brand.css";
+@import "./css/footer.css";
+@import "./css/product-listing.css";
+@import "./css/profile.css";
+@import "./css/redeem.css";
+@import "./css/style.css";
+@import "./css/terms.css";
+@import "./css/404.css";
+@import "./css/survey.css";

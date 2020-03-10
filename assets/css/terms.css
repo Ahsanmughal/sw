@@ -1,0 +1,19 @@
+.terms-list li  {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.policy-header {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 245, 250));
+    text-align:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.policy-nav {
+    background-color: #dedede;
+    overflow-y: scroll;
+    max-height: 500px;
+}

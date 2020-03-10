@@ -1,0 +1,25 @@
+.redeem-card {
+    position: relative;
+    padding-top:130px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1), 0 1px 3px 0 rgba(0,0,0,.08);
+}
+.redeem-qrcode-block {
+    height: 150px;
+    width:150px;
+    border: 1px solid #dedede;
+    position: absolute;
+    top: -75px; 
+    background-color: #fff; 
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1), 0 1px 3px 0 rgba(0,0,0,.08);
+}
+
+.redeem-present-icon {
+    font-size: 60px;
+    color: #ff3366
+}
+.redeem-info-height {
+    margin-top: 30px;
+}
